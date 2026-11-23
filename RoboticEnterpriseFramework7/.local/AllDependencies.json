@@ -63,7 +63,7 @@
           }
         }
       },
-      "BouncyCastle.Cryptography/2.3.1": {
+      "BouncyCastle.Cryptography/2.7.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/_._": {
@@ -76,14 +76,14 @@
           }
         }
       },
-      "ClosedXML/0.105.0": {
+      "ClosedXML/0.105.1": {
         "type": "package",
         "dependencies": {
           "ClosedXML.Parser": "2.0.0",
           "DocumentFormat.OpenXml": "[3.1.1, 4.0.0)",
           "ExcelNumberFormat": "1.1.0",
           "RBush.Signed": "4.0.0",
-          "SixLabors.Fonts": "1.0.0"
+          "SixLabors.Fonts": "[1.0.0, 3.0.0)"
         },
         "compile": {
           "lib/netstandard2.1/_._": {
@@ -131,34 +131,34 @@
           "lib/netstandard2.0/DiffMatchPatch.dll": {}
         }
       },
-      "DocumentFormat.OpenXml/3.3.0": {
+      "DocumentFormat.OpenXml/3.5.1": {
         "type": "package",
         "dependencies": {
-          "DocumentFormat.OpenXml.Framework": "3.3.0"
+          "DocumentFormat.OpenXml.Framework": "3.5.1"
         },
         "compile": {
-          "lib/net8.0/_._": {
+          "lib/net10.0/_._": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net8.0/DocumentFormat.OpenXml.dll": {
+          "lib/net10.0/DocumentFormat.OpenXml.dll": {
             "related": ".xml"
           }
         }
       },
-      "DocumentFormat.OpenXml.Framework/3.3.0": {
+      "DocumentFormat.OpenXml.Framework/3.5.1": {
         "type": "package",
         "dependencies": {
-          "System.IO.Packaging": "8.0.1"
+          "System.IO.Packaging": "10.0.2"
         },
         "compile": {
-          "lib/net8.0/_._": {
+          "lib/net10.0/_._": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net8.0/DocumentFormat.OpenXml.Framework.dll": {
+          "lib/net10.0/DocumentFormat.OpenXml.Framework.dll": {
             "related": ".xml"
           }
         }
@@ -175,15 +175,15 @@
           "lib/netstandard2.0/DynamicExpresso.Core.dll": {}
         }
       },
-      "Enums.NET/4.0.1": {
+      "Enums.NET/5.0.0": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.0/_._": {
+          "lib/net7.0/_._": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netcoreapp3.0/Enums.NET.dll": {
+          "lib/net7.0/Enums.NET.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -858,7 +858,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.IO.RecyclableMemoryStream/3.0.0": {
+      "Microsoft.IO.RecyclableMemoryStream/3.0.1": {
         "type": "package",
         "compile": {
           "lib/net6.0/_._": {
@@ -1610,19 +1610,20 @@
           }
         }
       },
-      "NPOI/2.7.3": {
+      "NPOI/2.7.6": {
         "type": "package",
         "dependencies": {
-          "BouncyCastle.Cryptography": "2.3.1",
-          "Enums.NET": "4.0.1",
+          "BouncyCastle.Cryptography": "2.6.2",
+          "Enums.NET": "5.0.0",
           "ExtendedNumerics.BigDecimal": "2025.1001.2.129",
           "MathNet.Numerics.Signed": "5.0.0",
-          "Microsoft.IO.RecyclableMemoryStream": "3.0.0",
+          "Microsoft.IO.RecyclableMemoryStream": "3.0.1",
+          "NSax": "1.0.2",
           "SharpZipLib": "1.4.2",
           "SixLabors.Fonts": "1.0.1",
-          "SixLabors.ImageSharp": "2.1.10",
-          "System.Security.Cryptography.Pkcs": "8.0.1",
-          "System.Security.Cryptography.Xml": "8.0.2"
+          "SixLabors.ImageSharp": "2.1.11",
+          "System.Security.Cryptography.Xml": "8.0.2",
+          "ZString": "2.6.0"
         },
         "compile": {
           "lib/net8.0/_._": {
@@ -1642,6 +1643,15 @@
           "lib/net8.0/NPOI.OpenXmlFormats.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "NSax/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0/NSax.dll": {}
         }
       },
       "NTextCat/0.3.65": {
@@ -1983,7 +1993,7 @@
           }
         }
       },
-      "SixLabors.ImageSharp/2.1.11": {
+      "SixLabors.ImageSharp/2.1.13": {
         "type": "package",
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "5.0.0",
@@ -2744,20 +2754,20 @@
           "lib/netstandard1.3/System.IO.FileSystem.Primitives.dll": {}
         }
       },
-      "System.IO.Packaging/8.0.1": {
+      "System.IO.Packaging/10.0.2": {
         "type": "package",
         "compile": {
-          "lib/net8.0/_._": {
+          "lib/net10.0/_._": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net8.0/System.IO.Packaging.dll": {
+          "lib/net10.0/System.IO.Packaging.dll": {
             "related": ".xml"
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "System.IO.Pipelines/6.0.3": {
@@ -3616,7 +3626,7 @@
           }
         }
       },
-      "System.Security.Cryptography.Pkcs/8.0.1": {
+      "System.Security.Cryptography.Pkcs/8.0.2": {
         "type": "package",
         "compile": {
           "lib/net8.0/_._": {
@@ -3717,10 +3727,10 @@
           }
         }
       },
-      "System.Security.Cryptography.Xml/8.0.4": {
+      "System.Security.Cryptography.Xml/8.0.5": {
         "type": "package",
         "dependencies": {
-          "System.Security.Cryptography.Pkcs": "8.0.1"
+          "System.Security.Cryptography.Pkcs": "8.0.2"
         },
         "compile": {
           "lib/net8.0/_._": {
@@ -4479,26 +4489,26 @@
           "lib/net8.0-windows7.0/UiPath.ErrorInfo.dll": {}
         }
       },
-      "UiPath.Excel.Activities/3.6.1": {
+      "UiPath.Excel.Activities/3.7.2": {
         "type": "package",
         "dependencies": {
-          "ClosedXML": "0.105.0",
-          "CsvHelper": "33.0.1",
-          "DocumentFormat.OpenXml": "3.3.0",
-          "NPOI": "2.7.3",
+          "BouncyCastle.Cryptography": "2.7.0",
+          "ClosedXML": "0.105.1",
+          "CsvHelper": "33.1.0",
+          "DocumentFormat.OpenXml": "3.5.1",
+          "NPOI": "2.7.6",
           "SharpZipLib": "1.4.2",
-          "SixLabors.ImageSharp": "2.1.11",
+          "SixLabors.ImageSharp": "2.1.13",
           "System.Activities.ViewModels": "1.20260609.1",
           "System.Drawing.Common": "6.0.0",
-          "System.Formats.Asn1": "8.0.1",
-          "System.IO.Packaging": "8.0.1",
+          "System.Formats.Asn1": "8.0.2",
           "System.Net.Http": "4.3.4",
-          "System.Security.Cryptography.Xml": "8.0.4",
+          "System.Security.Cryptography.Xml": "8.0.5",
           "System.Text.Encoding.CodePages": "6.0.0",
           "System.Text.RegularExpressions": "4.3.1",
-          "UiPath.CodedWorkflows": "24.10.1",
+          "UiPath.CodedWorkflows": "24.10.3",
           "UiPath.OfficeLibs": "1.0.0",
-          "UiPath.Platform": "25.10.1",
+          "UiPath.Platform": "26.9.0",
           "UiPath.Telemetry.Client": "2.12.0"
         },
         "compile": {
@@ -5761,6 +5771,19 @@
           "lib/net6.0-windows7.0/UiPath.Vision.Tesseract.dll": {},
           "lib/net6.0-windows7.0/UiPath.Vision.dll": {}
         }
+      },
+      "ZString/2.6.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/_._": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/ZString.dll": {
+            "related": ".xml"
+          }
+        }
       }
     },
     "net10.0-windows7.0/win-x64": {
@@ -5825,7 +5848,7 @@
           }
         }
       },
-      "BouncyCastle.Cryptography/2.3.1": {
+      "BouncyCastle.Cryptography/2.7.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/_._": {
@@ -5838,14 +5861,14 @@
           }
         }
       },
-      "ClosedXML/0.105.0": {
+      "ClosedXML/0.105.1": {
         "type": "package",
         "dependencies": {
           "ClosedXML.Parser": "2.0.0",
           "DocumentFormat.OpenXml": "[3.1.1, 4.0.0)",
           "ExcelNumberFormat": "1.1.0",
           "RBush.Signed": "4.0.0",
-          "SixLabors.Fonts": "1.0.0"
+          "SixLabors.Fonts": "[1.0.0, 3.0.0)"
         },
         "compile": {
           "lib/netstandard2.1/_._": {
@@ -5893,34 +5916,34 @@
           "lib/netstandard2.0/DiffMatchPatch.dll": {}
         }
       },
-      "DocumentFormat.OpenXml/3.3.0": {
+      "DocumentFormat.OpenXml/3.5.1": {
         "type": "package",
         "dependencies": {
-          "DocumentFormat.OpenXml.Framework": "3.3.0"
+          "DocumentFormat.OpenXml.Framework": "3.5.1"
         },
         "compile": {
-          "lib/net8.0/_._": {
+          "lib/net10.0/_._": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net8.0/DocumentFormat.OpenXml.dll": {
+          "lib/net10.0/DocumentFormat.OpenXml.dll": {
             "related": ".xml"
           }
         }
       },
-      "DocumentFormat.OpenXml.Framework/3.3.0": {
+      "DocumentFormat.OpenXml.Framework/3.5.1": {
         "type": "package",
         "dependencies": {
-          "System.IO.Packaging": "8.0.1"
+          "System.IO.Packaging": "10.0.2"
         },
         "compile": {
-          "lib/net8.0/_._": {
+          "lib/net10.0/_._": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net8.0/DocumentFormat.OpenXml.Framework.dll": {
+          "lib/net10.0/DocumentFormat.OpenXml.Framework.dll": {
             "related": ".xml"
           }
         }
@@ -5937,15 +5960,15 @@
           "lib/netstandard2.0/DynamicExpresso.Core.dll": {}
         }
       },
-      "Enums.NET/4.0.1": {
+      "Enums.NET/5.0.0": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.0/_._": {
+          "lib/net7.0/_._": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netcoreapp3.0/Enums.NET.dll": {
+          "lib/net7.0/Enums.NET.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -6620,7 +6643,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.IO.RecyclableMemoryStream/3.0.0": {
+      "Microsoft.IO.RecyclableMemoryStream/3.0.1": {
         "type": "package",
         "compile": {
           "lib/net6.0/_._": {
@@ -7267,19 +7290,20 @@
           }
         }
       },
-      "NPOI/2.7.3": {
+      "NPOI/2.7.6": {
         "type": "package",
         "dependencies": {
-          "BouncyCastle.Cryptography": "2.3.1",
-          "Enums.NET": "4.0.1",
+          "BouncyCastle.Cryptography": "2.6.2",
+          "Enums.NET": "5.0.0",
           "ExtendedNumerics.BigDecimal": "2025.1001.2.129",
           "MathNet.Numerics.Signed": "5.0.0",
-          "Microsoft.IO.RecyclableMemoryStream": "3.0.0",
+          "Microsoft.IO.RecyclableMemoryStream": "3.0.1",
+          "NSax": "1.0.2",
           "SharpZipLib": "1.4.2",
           "SixLabors.Fonts": "1.0.1",
-          "SixLabors.ImageSharp": "2.1.10",
-          "System.Security.Cryptography.Pkcs": "8.0.1",
-          "System.Security.Cryptography.Xml": "8.0.2"
+          "SixLabors.ImageSharp": "2.1.11",
+          "System.Security.Cryptography.Xml": "8.0.2",
+          "ZString": "2.6.0"
         },
         "compile": {
           "lib/net8.0/_._": {
@@ -7299,6 +7323,15 @@
           "lib/net8.0/NPOI.OpenXmlFormats.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "NSax/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0/NSax.dll": {}
         }
       },
       "NTextCat/0.3.65": {
@@ -7818,7 +7851,7 @@
           }
         }
       },
-      "SixLabors.ImageSharp/2.1.11": {
+      "SixLabors.ImageSharp/2.1.13": {
         "type": "package",
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "5.0.0",
@@ -8477,20 +8510,20 @@
           "lib/netstandard1.3/System.IO.FileSystem.Primitives.dll": {}
         }
       },
-      "System.IO.Packaging/8.0.1": {
+      "System.IO.Packaging/10.0.2": {
         "type": "package",
         "compile": {
-          "lib/net8.0/_._": {
+          "lib/net10.0/_._": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net8.0/System.IO.Packaging.dll": {
+          "lib/net10.0/System.IO.Packaging.dll": {
             "related": ".xml"
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "System.IO.Pipelines/6.0.3": {
@@ -9294,7 +9327,7 @@
           "lib/netstandard1.6/System.Security.Cryptography.OpenSsl.dll": {}
         }
       },
-      "System.Security.Cryptography.Pkcs/8.0.1": {
+      "System.Security.Cryptography.Pkcs/8.0.2": {
         "type": "package",
         "compile": {
           "lib/net8.0/_._": {
@@ -9382,10 +9415,10 @@
           "runtimes/win/lib/netstandard1.6/System.Security.Cryptography.X509Certificates.dll": {}
         }
       },
-      "System.Security.Cryptography.Xml/8.0.4": {
+      "System.Security.Cryptography.Xml/8.0.5": {
         "type": "package",
         "dependencies": {
-          "System.Security.Cryptography.Pkcs": "8.0.1"
+          "System.Security.Cryptography.Pkcs": "8.0.2"
         },
         "compile": {
           "lib/net8.0/_._": {
@@ -10119,26 +10152,26 @@
           "lib/net8.0-windows7.0/UiPath.ErrorInfo.dll": {}
         }
       },
-      "UiPath.Excel.Activities/3.6.1": {
+      "UiPath.Excel.Activities/3.7.2": {
         "type": "package",
         "dependencies": {
-          "ClosedXML": "0.105.0",
-          "CsvHelper": "33.0.1",
-          "DocumentFormat.OpenXml": "3.3.0",
-          "NPOI": "2.7.3",
+          "BouncyCastle.Cryptography": "2.7.0",
+          "ClosedXML": "0.105.1",
+          "CsvHelper": "33.1.0",
+          "DocumentFormat.OpenXml": "3.5.1",
+          "NPOI": "2.7.6",
           "SharpZipLib": "1.4.2",
-          "SixLabors.ImageSharp": "2.1.11",
+          "SixLabors.ImageSharp": "2.1.13",
           "System.Activities.ViewModels": "1.20260609.1",
           "System.Drawing.Common": "6.0.0",
-          "System.Formats.Asn1": "8.0.1",
-          "System.IO.Packaging": "8.0.1",
+          "System.Formats.Asn1": "8.0.2",
           "System.Net.Http": "4.3.4",
-          "System.Security.Cryptography.Xml": "8.0.4",
+          "System.Security.Cryptography.Xml": "8.0.5",
           "System.Text.Encoding.CodePages": "6.0.0",
           "System.Text.RegularExpressions": "4.3.1",
-          "UiPath.CodedWorkflows": "24.10.1",
+          "UiPath.CodedWorkflows": "24.10.3",
           "UiPath.OfficeLibs": "1.0.0",
-          "UiPath.Platform": "25.10.1",
+          "UiPath.Platform": "26.9.0",
           "UiPath.Telemetry.Client": "2.12.0"
         },
         "compile": {
@@ -11401,6 +11434,19 @@
           "lib/net6.0-windows7.0/UiPath.Vision.Tesseract.dll": {},
           "lib/net6.0-windows7.0/UiPath.Vision.dll": {}
         }
+      },
+      "ZString/2.6.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/_._": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/ZString.dll": {
+            "related": ".xml"
+          }
+        }
       }
     }
   },
@@ -11471,16 +11517,16 @@
         "lib/netstandard2.0/BitMiracle.LibTiff.NET.xml"
       ]
     },
-    "BouncyCastle.Cryptography/2.3.1": {
-      "sha512": "buwoISwecYke3CmgG1AQSg+sNZjJeIb93vTAtJiHZX35hP/teYMxsfg0NDXGUKjGx6BKBTNKc77O2M3vKvlXZQ==",
+    "BouncyCastle.Cryptography/2.7.0": {
+      "sha512": "U+12df8UEWHgBi04YVf/Lgi2dy3SItlIYvHjjEVa/BngCQIzDCDRBk50DDByCfDvSbe5pRNFr3b7UrVK2kMcLw==",
       "type": "package",
-      "path": "bouncycastle.cryptography/2.3.1",
+      "path": "bouncycastle.cryptography/2.7.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.md",
         "README.md",
-        "bouncycastle.cryptography.2.3.1.nupkg.sha512",
+        "bouncycastle.cryptography.2.7.0.nupkg.sha512",
         "bouncycastle.cryptography.nuspec",
         "lib/net461/BouncyCastle.Cryptography.dll",
         "lib/net461/BouncyCastle.Cryptography.xml",
@@ -11491,14 +11537,14 @@
         "packageIcon.png"
       ]
     },
-    "ClosedXML/0.105.0": {
-      "sha512": "U0hAdnYyPvF7TqHMFloxrS7pmozab79tFFF4c/bgPtqeelUs7ILpUd3r3c7C0a/DXsUZb3k1n4Pf7Q2LMyMQOg==",
+    "ClosedXML/0.105.1": {
+      "sha512": "X1ruIP9h2FBEK7jmO0peq3s6/Zqt5ve5a9f9kn6WUjdsUWvGbQlqxuGLz822xuFLlmnSeAfWFTGeX/tZlmAt+g==",
       "type": "package",
-      "path": "closedxml/0.105.0",
+      "path": "closedxml/0.105.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "closedxml.0.105.0.nupkg.sha512",
+        "closedxml.0.105.1.nupkg.sha512",
         "closedxml.nuspec",
         "lib/netstandard2.0/ClosedXML.dll",
         "lib/netstandard2.0/ClosedXML.pdb",
@@ -11563,17 +11609,19 @@
         "lib/netstandard2.0/DiffMatchPatch.dll"
       ]
     },
-    "DocumentFormat.OpenXml/3.3.0": {
-      "sha512": "JogRPJNiE6kKvbuCqVRX691pPWeGMqdQgjrUwRYkdpfkMmtElfqAgcRR73geYj7OtBeEpstldZXXzJw27LUI9w==",
+    "DocumentFormat.OpenXml/3.5.1": {
+      "sha512": "zxdOf5VVCe/uNklbRhj8dVBzQGj3DoqkUuqOp9cAZVuN8mNYDjof1lvSQA2OQNr8Ptc9d7pbA7Azq/ReaI3FpA==",
       "type": "package",
-      "path": "documentformat.openxml/3.3.0",
+      "path": "documentformat.openxml/3.5.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
-        "documentformat.openxml.3.3.0.nupkg.sha512",
+        "documentformat.openxml.3.5.1.nupkg.sha512",
         "documentformat.openxml.nuspec",
         "icon.png",
+        "lib/net10.0/DocumentFormat.OpenXml.dll",
+        "lib/net10.0/DocumentFormat.OpenXml.xml",
         "lib/net35/DocumentFormat.OpenXml.dll",
         "lib/net35/DocumentFormat.OpenXml.xml",
         "lib/net40/DocumentFormat.OpenXml.dll",
@@ -11586,17 +11634,19 @@
         "lib/netstandard2.0/DocumentFormat.OpenXml.xml"
       ]
     },
-    "DocumentFormat.OpenXml.Framework/3.3.0": {
-      "sha512": "R5CLzEoeyr7XDB7g3NTxRobcU19agaxVAhGZm+fZUShJGiU4bw8oUgnA2BNFepigJckfFMayOBMAbV3kDXNInA==",
+    "DocumentFormat.OpenXml.Framework/3.5.1": {
+      "sha512": "U5txtc3ORno73xQx9Lf2gWzfaSZnZwKHfLkTAslhlew9lxe5XbUiCt0dY1fHeAf8yRqszUAe5i/+xLC9R/Xfsw==",
       "type": "package",
-      "path": "documentformat.openxml.framework/3.3.0",
+      "path": "documentformat.openxml.framework/3.5.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
-        "documentformat.openxml.framework.3.3.0.nupkg.sha512",
+        "documentformat.openxml.framework.3.5.1.nupkg.sha512",
         "documentformat.openxml.framework.nuspec",
         "icon.png",
+        "lib/net10.0/DocumentFormat.OpenXml.Framework.dll",
+        "lib/net10.0/DocumentFormat.OpenXml.Framework.xml",
         "lib/net35/DocumentFormat.OpenXml.Framework.dll",
         "lib/net35/DocumentFormat.OpenXml.Framework.xml",
         "lib/net40/DocumentFormat.OpenXml.Framework.dll",
@@ -11623,30 +11673,24 @@
         "lib/netstandard2.0/DynamicExpresso.Core.dll"
       ]
     },
-    "Enums.NET/4.0.1": {
-      "sha512": "OUGCd5L8zHZ61GAf436G0gf/H6yrSUkEpV5vm2CbCUuz9Rx7iLFLP5iHSSfmOtqNpuyo4vYte0CvYEmPZXRmRQ==",
+    "Enums.NET/5.0.0": {
+      "sha512": "NfGq1iLJZ15XZPgBhjk4Ns1XZ+beaGk6cog6B4LxcROdGoSMdgCJqYXF70P6VTd3dz/vFRY4h1u1lAMqW/DC2w==",
       "type": "package",
-      "path": "enums.net/4.0.1",
+      "path": "enums.net/5.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "enums.net.4.0.1.nupkg.sha512",
+        "enums.net.5.0.0.nupkg.sha512",
         "enums.net.nuspec",
-        "lib/net45/Enums.NET.dll",
-        "lib/net45/Enums.NET.pdb",
-        "lib/net45/Enums.NET.xml",
+        "lib/net461/Enums.NET.dll",
+        "lib/net461/Enums.NET.pdb",
+        "lib/net461/Enums.NET.xml",
+        "lib/net7.0/Enums.NET.dll",
+        "lib/net7.0/Enums.NET.pdb",
+        "lib/net7.0/Enums.NET.xml",
         "lib/netcoreapp3.0/Enums.NET.dll",
         "lib/netcoreapp3.0/Enums.NET.pdb",
         "lib/netcoreapp3.0/Enums.NET.xml",
-        "lib/netstandard1.0/Enums.NET.dll",
-        "lib/netstandard1.0/Enums.NET.pdb",
-        "lib/netstandard1.0/Enums.NET.xml",
-        "lib/netstandard1.1/Enums.NET.dll",
-        "lib/netstandard1.1/Enums.NET.pdb",
-        "lib/netstandard1.1/Enums.NET.xml",
-        "lib/netstandard1.3/Enums.NET.dll",
-        "lib/netstandard1.3/Enums.NET.pdb",
-        "lib/netstandard1.3/Enums.NET.xml",
         "lib/netstandard2.0/Enums.NET.dll",
         "lib/netstandard2.0/Enums.NET.pdb",
         "lib/netstandard2.0/Enums.NET.xml",
@@ -13264,10 +13308,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.IO.RecyclableMemoryStream/3.0.0": {
-      "sha512": "irv0HuqoH8Ig5i2fO+8dmDNdFdsrO+DoQcedwIlb810qpZHBNQHZLW7C/AHBQDgLLpw2T96vmMAy/aE4Yj55Sg==",
+    "Microsoft.IO.RecyclableMemoryStream/3.0.1": {
+      "sha512": "s/s20YTVY9r9TPfTrN5g8zPF1YhwxyqO6PxUkrYTGI2B+OGPe9AdajWZrLhFqXIvqIW23fnUE4+ztrUWNU1+9g==",
       "type": "package",
-      "path": "microsoft.io.recyclablememorystream/3.0.0",
+      "path": "microsoft.io.recyclablememorystream/3.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -13278,7 +13322,7 @@
         "lib/netstandard2.0/Microsoft.IO.RecyclableMemoryStream.xml",
         "lib/netstandard2.1/Microsoft.IO.RecyclableMemoryStream.dll",
         "lib/netstandard2.1/Microsoft.IO.RecyclableMemoryStream.xml",
-        "microsoft.io.recyclablememorystream.3.0.0.nupkg.sha512",
+        "microsoft.io.recyclablememorystream.3.0.1.nupkg.sha512",
         "microsoft.io.recyclablememorystream.nuspec"
       ]
     },
@@ -14288,10 +14332,10 @@
         "nlog.nuspec"
       ]
     },
-    "NPOI/2.7.3": {
-      "sha512": "iCZx3DSwUSwaV61E8tXgPlPuxYmcYV/Zi405nGlxQvWaGTAbuc0KvSBjsLucQUJ92iMeetT8iK9makLfF4uZ3g==",
+    "NPOI/2.7.6": {
+      "sha512": "itLDt6M2VFcWjTGpzeRNy7Axmp2cVjHpTtf4zVLm6XQvuINlkHFBabBd4s8iCRAupx/NBSzqPxqe7+5fJOY8NQ==",
       "type": "package",
-      "path": "npoi/2.7.3",
+      "path": "npoi/2.7.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -14349,8 +14393,24 @@
         "logo/240_240.png",
         "logo/32_32.jpg",
         "logo/60_60.jpg",
-        "npoi.2.7.3.nupkg.sha512",
+        "npoi.2.7.6.nupkg.sha512",
         "npoi.nuspec"
+      ]
+    },
+    "NSax/1.0.2": {
+      "sha512": "7txlId2RJTQBL3YdSGO7x70+r3HUOCw725lu0OoBgThRl/e3RhAZ2QKYxW2y9dPRtqbFZYHVa8siIeB8+L//Cg==",
+      "type": "package",
+      "path": "nsax/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net472/NSax.dll",
+        "lib/net6.0/NSax.dll",
+        "lib/netstandard2.0/NSax.dll",
+        "lib/netstandard2.1/NSax.dll",
+        "nsax.1.0.2.nupkg.sha512",
+        "nsax.nuspec"
       ]
     },
     "NTextCat/0.3.65": {
@@ -15409,10 +15469,10 @@
         "sixlabors.fonts.nuspec"
       ]
     },
-    "SixLabors.ImageSharp/2.1.11": {
-      "sha512": "tUvsejgzUmEbES114yLseRxmFiYlQbH5RyaYXUQsEL7ksDo1/kW+ZL1EfD6iSUfxj7LHU8p110oFvSrRfsaWSQ==",
+    "SixLabors.ImageSharp/2.1.13": {
+      "sha512": "zmVHZR13XE477TBAVXE71VcMhqhiv1PbzMWIfuIDytVdBPl3KZlvYYBkqcuQSDdszVY2XHanW98VmDffoNzSSw==",
       "type": "package",
-      "path": "sixlabors.imagesharp/2.1.11",
+      "path": "sixlabors.imagesharp/2.1.13",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -15427,7 +15487,7 @@
         "lib/netstandard2.1/SixLabors.ImageSharp.dll",
         "lib/netstandard2.1/SixLabors.ImageSharp.xml",
         "sixlabors.imagesharp.128.png",
-        "sixlabors.imagesharp.2.1.11.nupkg.sha512",
+        "sixlabors.imagesharp.2.1.13.nupkg.sha512",
         "sixlabors.imagesharp.nuspec"
       ]
     },
@@ -17009,31 +17069,30 @@
         "system.io.filesystem.primitives.nuspec"
       ]
     },
-    "System.IO.Packaging/8.0.1": {
-      "sha512": "KYkIOAvPexQOLDxPO2g0BVoWInnQhPpkFzRqvNrNrMhVT6kqhVr0zEb6KCHlptLFukxnZrjuMVAnxK7pOGUYrw==",
+    "System.IO.Packaging/10.0.2": {
+      "sha512": "JTpM4z0wpoIHHDvlCU27HsXo+zVnpWib94HXQpzzr+jc/P9NYf4w353AK4MXyGq/grm1mbLi7eXsOsDU8sGmNg==",
       "type": "package",
-      "path": "system.io.packaging/8.0.1",
+      "path": "system.io.packaging/10.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
-        "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "buildTransitive/net461/System.IO.Packaging.targets",
         "buildTransitive/net462/_._",
-        "buildTransitive/net6.0/_._",
+        "buildTransitive/net8.0/_._",
         "buildTransitive/netcoreapp2.0/System.IO.Packaging.targets",
+        "lib/net10.0/System.IO.Packaging.dll",
+        "lib/net10.0/System.IO.Packaging.xml",
         "lib/net462/System.IO.Packaging.dll",
         "lib/net462/System.IO.Packaging.xml",
-        "lib/net6.0/System.IO.Packaging.dll",
-        "lib/net6.0/System.IO.Packaging.xml",
-        "lib/net7.0/System.IO.Packaging.dll",
-        "lib/net7.0/System.IO.Packaging.xml",
         "lib/net8.0/System.IO.Packaging.dll",
         "lib/net8.0/System.IO.Packaging.xml",
+        "lib/net9.0/System.IO.Packaging.dll",
+        "lib/net9.0/System.IO.Packaging.xml",
         "lib/netstandard2.0/System.IO.Packaging.dll",
         "lib/netstandard2.0/System.IO.Packaging.xml",
-        "system.io.packaging.8.0.1.nupkg.sha512",
+        "system.io.packaging.10.0.2.nupkg.sha512",
         "system.io.packaging.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -18965,10 +19024,10 @@
         "system.security.cryptography.openssl.nuspec"
       ]
     },
-    "System.Security.Cryptography.Pkcs/8.0.1": {
-      "sha512": "CoCRHFym33aUSf/NtWSVSZa99dkd0Hm7OCZUxORBjRB16LNhIEOf8THPqzIYlvKM0nNDAPTRBa1FxEECrgaxxA==",
+    "System.Security.Cryptography.Pkcs/8.0.2": {
+      "sha512": "VWACYq0JGxi9sw3TonSSV4B2MfhYk5nhgOtp9wbrt5NFOtUetFqHkMZylcCwPX+117cBJH5EnIzIy6X4OKn/kA==",
       "type": "package",
-      "path": "system.security.cryptography.pkcs/8.0.1",
+      "path": "system.security.cryptography.pkcs/8.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -18997,7 +19056,7 @@
         "runtimes/win/lib/net7.0/System.Security.Cryptography.Pkcs.xml",
         "runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll",
         "runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.xml",
-        "system.security.cryptography.pkcs.8.0.1.nupkg.sha512",
+        "system.security.cryptography.pkcs.8.0.2.nupkg.sha512",
         "system.security.cryptography.pkcs.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -19123,10 +19182,10 @@
         "system.security.cryptography.x509certificates.nuspec"
       ]
     },
-    "System.Security.Cryptography.Xml/8.0.4": {
-      "sha512": "1y+ROEEmEOACrQWqRi37GkGHOThPc31m7vezOySpPE9xXN2nTN6ndLYjylvy42aCtQq4owlYhcqaKpQKMDFKFg==",
+    "System.Security.Cryptography.Xml/8.0.5": {
+      "sha512": "vu85aidUbxTh39CXdo/4mgtDlBNQ0h6k7oq5RIBwV2V2QYbRvtY6XlV3ikwYIyLX/LyaOraVvoCVVYnjFbV4/w==",
       "type": "package",
-      "path": "system.security.cryptography.xml/8.0.4",
+      "path": "system.security.cryptography.xml/8.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -19147,7 +19206,7 @@
         "lib/net8.0/System.Security.Cryptography.Xml.xml",
         "lib/netstandard2.0/System.Security.Cryptography.Xml.dll",
         "lib/netstandard2.0/System.Security.Cryptography.Xml.xml",
-        "system.security.cryptography.xml.8.0.4.nupkg.sha512",
+        "system.security.cryptography.xml.8.0.5.nupkg.sha512",
         "system.security.cryptography.xml.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -20842,10 +20901,10 @@
         "uipath.errorinfo.nuspec"
       ]
     },
-    "UiPath.Excel.Activities/3.6.1": {
-      "sha512": "RWWX0vMG53pKkNoS8f5A+fsNxNhb+csVUVzXGUuyDs9/7pxqZEl2ryvo2PvC9zLTKd3WHpD2NlXdnG1sUaQiQQ==",
+    "UiPath.Excel.Activities/3.7.2": {
+      "sha512": "dwLXoaIKn0luarS4nM+OxLZMZGZF3CsNn3+KCnBHr85eenjhNSg3rv6pCAtv5f2aHcfxl1l6+59BqEKnBrhfKA==",
       "type": "package",
-      "path": "uipath.excel.activities/3.6.1",
+      "path": "uipath.excel.activities/3.7.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -20854,8 +20913,10 @@
         "content/docs/activities/AppendRangeX.md",
         "content/docs/activities/AppendWriteCsvFile.md",
         "content/docs/activities/AutoFillX.md",
+        "content/docs/activities/AutoFit.md",
         "content/docs/activities/AutoFitX.md",
         "content/docs/activities/ChangePivotTableDataSourceX.md",
+        "content/docs/activities/ClearRange.md",
         "content/docs/activities/ClearRangeX.md",
         "content/docs/activities/CopyChartToClipboardX.md",
         "content/docs/activities/CopyPasteRangeX.md",
@@ -20864,20 +20925,28 @@
         "content/docs/activities/CreatePivotTableXv2.md",
         "content/docs/activities/CreateTableX.md",
         "content/docs/activities/DeleteColumnX.md",
+        "content/docs/activities/DeleteColumns.md",
+        "content/docs/activities/DeleteRows.md",
         "content/docs/activities/DeleteRowsX.md",
+        "content/docs/activities/DeleteSheet.md",
         "content/docs/activities/DeleteSheetX.md",
+        "content/docs/activities/DuplicateSheet.md",
         "content/docs/activities/DuplicateSheetX.md",
         "content/docs/activities/ExcelApplicationCard.md",
         "content/docs/activities/ExcelForEachRowX.md",
         "content/docs/activities/ExcelProcessScopeX.md",
         "content/docs/activities/ExecuteMacroX.md",
         "content/docs/activities/ExportExcelToCsvX.md",
+        "content/docs/activities/FillRange.md",
         "content/docs/activities/FillRangeX.md",
         "content/docs/activities/FilterPivotTableX.md",
+        "content/docs/activities/FilterRange.md",
         "content/docs/activities/FilterX.md",
+        "content/docs/activities/FindFirstLastDataRow.md",
         "content/docs/activities/FindFirstLastDataRowX.md",
         "content/docs/activities/FindReplaceValueX.md",
         "content/docs/activities/ForEachSheetX.md",
+        "content/docs/activities/FormatRange.md",
         "content/docs/activities/FormatRangeX.md",
         "content/docs/activities/GetCellColor.md",
         "content/docs/activities/GetCellColorX.md",
@@ -20887,13 +20956,19 @@
         "content/docs/activities/GetTableRange.md",
         "content/docs/activities/InsertChart.md",
         "content/docs/activities/InsertColumnX.md",
+        "content/docs/activities/InsertColumns.md",
         "content/docs/activities/InsertExcelChartX.md",
         "content/docs/activities/InsertImage.md",
+        "content/docs/activities/InsertRows.md",
         "content/docs/activities/InsertRowsX.md",
+        "content/docs/activities/InsertSheet.md",
         "content/docs/activities/InsertSheetX.md",
         "content/docs/activities/InvokeVBAX.md",
+        "content/docs/activities/Lookup.md",
         "content/docs/activities/LookupX.md",
+        "content/docs/activities/MatchFunction.md",
         "content/docs/activities/MatchFunctionX.md",
+        "content/docs/activities/ProtectSheet.md",
         "content/docs/activities/ProtectSheetX.md",
         "content/docs/activities/ReadCell.md",
         "content/docs/activities/ReadCellFormula.md",
@@ -20906,18 +20981,23 @@
         "content/docs/activities/ReadRow.md",
         "content/docs/activities/RefreshDataConnectionsX.md",
         "content/docs/activities/RefreshPivotTableX.md",
+        "content/docs/activities/RemoveDuplicates.md",
         "content/docs/activities/RemoveDuplicatesX.md",
+        "content/docs/activities/RenameSheet.md",
         "content/docs/activities/RenameSheetX.md",
         "content/docs/activities/SaveAsPdfX.md",
         "content/docs/activities/SaveExcelFileAsX.md",
         "content/docs/activities/SaveExcelFileX.md",
         "content/docs/activities/SelectRangeX.md",
         "content/docs/activities/SetRangeColor.md",
+        "content/docs/activities/SortRange.md",
         "content/docs/activities/SortX.md",
         "content/docs/activities/TextToColumnsX.md",
+        "content/docs/activities/UnprotectSheet.md",
         "content/docs/activities/UnprotectSheetX.md",
         "content/docs/activities/UpdateChart.md",
         "content/docs/activities/UpdateChartX.md",
+        "content/docs/activities/VLookup.md",
         "content/docs/activities/VLookupX.md",
         "content/docs/activities/WriteCell.md",
         "content/docs/activities/WriteCellX.md",
@@ -21008,7 +21088,7 @@
         "lib/net6.0/zh-TW/UiPath.Excel.resources.dll",
         "lib/net6.0/zu/UiPath.Excel.Activities.resources.dll",
         "lib/net6.0/zu/UiPath.Excel.resources.dll",
-        "uipath.excel.activities.3.6.1.nupkg.sha512",
+        "uipath.excel.activities.3.7.2.nupkg.sha512",
         "uipath.excel.activities.nuspec"
       ]
     },
@@ -22862,12 +22942,32 @@
         "uipath.vision.4.1.0.nupkg.sha512",
         "uipath.vision.nuspec"
       ]
+    },
+    "ZString/2.6.0": {
+      "sha512": "XE8a+11nZg0LRaf+RGABEWaHIf8yGd5w8v/Ra1iWxMBmAVzwuKbW7G21mS0U7w7sh1lYcgckInWGgnz4qyET8A==",
+      "type": "package",
+      "path": "zstring/2.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net6.0/ZString.dll",
+        "lib/net6.0/ZString.xml",
+        "lib/net7.0/ZString.dll",
+        "lib/net7.0/ZString.xml",
+        "lib/netstandard2.0/ZString.dll",
+        "lib/netstandard2.0/ZString.xml",
+        "lib/netstandard2.1/ZString.dll",
+        "lib/netstandard2.1/ZString.xml",
+        "zstring.2.6.0.nupkg.sha512",
+        "zstring.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "": [],
     "net10.0-windows7.0": [
-      "UiPath.Excel.Activities >= 3.6.1 <= 3.6.1",
+      "UiPath.Excel.Activities >= 3.7.2 <= 3.7.2",
       "UiPath.System.Activities >= 26.10.0 <= 26.10.0",
       "UiPath.Testing.Activities >= 25.10.3 <= 25.10.3",
       "UiPath.UIAutomation.Activities >= 26.10.7 <= 26.10.7"
@@ -22880,9 +22980,9 @@
     "restore": {
       "projectUniqueName": "RoboticEnterpriseFramework7",
       "projectName": "RoboticEnterpriseFramework7",
-      "projectPath": "D:\\Gittesting\\Gittesting\\RoboticEnterpriseFramework7\\.local",
+      "projectPath": "D:\\Gittesting\\DevA\\Gittesting\\RoboticEnterpriseFramework7\\.local",
       "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-      "outputPath": "D:\\Gittesting\\Gittesting\\RoboticEnterpriseFramework7\\.local",
+      "outputPath": "D:\\Gittesting\\DevA\\Gittesting\\RoboticEnterpriseFramework7\\.local",
       "UsingMicrosoftNETSdk": false,
       "restoreAuditProperties": {
         "enableAudit": "False"
@@ -22894,7 +22994,7 @@
           "UiPath.Excel.Activities": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[3.6.1, 3.6.1]"
+            "version": "[3.7.2, 3.7.2]"
           },
           "UiPath.System.Activities": {
             "include": "Runtime",
