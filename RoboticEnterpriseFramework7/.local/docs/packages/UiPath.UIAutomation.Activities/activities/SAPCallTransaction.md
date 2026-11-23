@@ -35,3 +35,5 @@ Run `uip rpa --help` to find the command that retrieves the default XAML for an 
 
 - Before automating SAP, read [`sap-guide.md`](../references/sap-guide.md).
 - This activity must be placed inside a `UiPath.UIAutomationNext.Activities.NApplicationCard` scope.
+- The activity waits until the session reports the transaction it names, and fails early only on a status-bar error it recognises. `/n` alone therefore never succeeds: it lands on a start screen that reports `SESSION_MANAGER`, `SMEN` or `S000`, and the activity times out. To leave a transaction, see [sap-guide.md § Other Gotchas](../references/sap-guide.md#other-gotchas).
+- Calling `SESSION_MANAGER` is no way back to the start screen: from inside a transaction SAP answers it with a "Cannot start transaction SESSION_MANAGER" dialog, and the activity succeeds where the start screen reports `SESSION_MANAGER` and times out where it reports `SMEN`.

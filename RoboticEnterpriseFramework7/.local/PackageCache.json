@@ -36,14 +36,14 @@
         "C:\\Users\\Hp\\.nuget\\packages\\sharpziplib\\1.4.2\\lib/net6.0/ICSharpCode.SharpZipLib.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\sixlabors.fonts\\1.0.1\\lib/netcoreapp3.1/SixLabors.Fonts.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\sixlabors.imagesharp\\2.1.11\\lib/netcoreapp3.1/SixLabors.ImageSharp.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\system.activities.viewmodels\\1.20260609.1\\lib/net6.0-windows7.0/System.Activities.ViewModels.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\system.activities.viewmodels\\1.20261110.3\\lib/net6.0-windows7.0/System.Activities.ViewModels.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib/netstandard2.0/System.IO.Abstractions.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\uipath.codedworkflows\\24.10.3\\lib/net6.0-windows7.0/UiPath.CodedWorkflows.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\uipath.excel.activities\\3.6.1\\lib/net6.0-windows7.0/UiPath.Excel.Activities.API.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\uipath.excel.activities\\3.6.1\\lib/net6.0-windows7.0/UiPath.Excel.Activities.Design.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.excel.activities\\3.6.1\\lib/net6.0-windows7.0/UiPath.Excel.Activities.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\uipath.excel.activities\\3.6.1\\lib/net6.0-windows7.0/UiPath.Excel.Activities.Package.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\uipath.excel.activities\\3.6.1\\lib/net6.0-windows7.0/UiPath.Excel.Activities.ViewModels.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.excel.activities\\3.6.1\\lib/net6.0-windows7.0/UiPath.Excel.Activities.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\uipath.excel.activities\\3.6.1\\lib/net6.0-windows7.0/UiPath.Excel.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\uipath.officelibs\\1.0.0\\lib/net6.0-windows7.0/Microsoft.Office.Interop.Excel.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\uipath.officelibs\\1.0.0\\lib/net6.0-windows7.0/Microsoft.Office.Interop.Outlook.dll",
@@ -122,7 +122,7 @@
         "C:\\Users\\Hp\\.nuget\\packages\\nlog\\4.7.15\\lib/netstandard2.0/NLog.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\radcommons.core\\2.0.1\\lib/netstandard2.0/net.adamec.lib.common.core.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\sharpziplib\\1.4.2\\lib/net6.0/ICSharpCode.SharpZipLib.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\system.activities.viewmodels\\1.20260609.1\\lib/net6.0-windows7.0/System.Activities.ViewModels.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\system.activities.viewmodels\\1.20261110.3\\lib/net6.0-windows7.0/System.Activities.ViewModels.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\system.componentmodel.composition\\8.0.0\\lib/net8.0/System.ComponentModel.Composition.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\system.componentmodel.composition.registration\\8.0.0\\lib/net8.0/System.ComponentModel.Composition.Registration.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\system.data.odbc\\8.0.1\\runtimes/win/lib/net8.0/System.Data.Odbc.dll",
@@ -141,8 +141,8 @@
         "C:\\Users\\Hp\\.nuget\\packages\\system.servicemodel.duplex\\4.10.3\\lib/net6.0/System.ServiceModel.Duplex.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\system.servicemodel.http\\4.10.3\\lib/net6.0/System.ServiceModel.Http.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\system.servicemodel.nettcp\\4.10.3\\lib/net6.0/System.ServiceModel.NetTcp.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\system.servicemodel.primitives\\4.10.3\\lib/net6.0/System.ServiceModel.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\system.servicemodel.primitives\\4.10.3\\lib/net6.0/System.ServiceModel.Primitives.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\system.servicemodel.primitives\\4.10.3\\lib/net6.0/System.ServiceModel.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\system.servicemodel.security\\4.10.3\\lib/net6.0/System.ServiceModel.Security.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\system.servicemodel.syndication\\8.0.0\\lib/net8.0/System.ServiceModel.Syndication.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\system.serviceprocess.servicecontroller\\8.0.1\\runtimes/win/lib/net8.0/System.ServiceProcess.ServiceController.dll",
@@ -153,7 +153,7 @@
         "C:\\Users\\Hp\\.nuget\\packages\\uipath.errorinfo\\25.10.2\\lib/net8.0-windows7.0/UiPath.ErrorInfo.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\uipath.opentelemetry.contracts\\2.12.0\\lib/netstandard2.0/UiPath.OpenTelemetry.Contracts.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\uipath.platform\\26.9.0\\lib/net6.0-windows7.0/UiPath.Platform.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.plugin.activities.tracing\\1.0.1\\lib/net8.0-windows7.0/UiPath.Plugin.Activities.Tracing.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.plugin.activities.tracing\\1.0.2\\lib/net10.0-windows7.0/UiPath.Plugin.Activities.Tracing.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\uipath.system.activities\\26.10.0\\lib/net8.0-windows7.0/UiPath.System.Activities.Design.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\uipath.system.activities\\26.10.0\\lib/net8.0-windows7.0/UiPath.System.Activities.Rules.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\uipath.system.activities\\26.10.0\\lib/net8.0-windows7.0/UiPath.System.Activities.ViewModels.dll",
@@ -193,7 +193,7 @@
         "C:\\Users\\Hp\\.nuget\\packages\\nito.collections.deque\\1.1.1\\lib/netstandard2.0/Nito.Collections.Deque.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\nito.disposables\\2.2.1\\lib/netstandard2.1/Nito.Disposables.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\ntextcat\\0.3.65\\lib/netstandard2.0/NTextCat.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\system.activities.viewmodels\\1.20260609.1\\lib/net6.0-windows7.0/System.Activities.ViewModels.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\system.activities.viewmodels\\1.20261110.3\\lib/net6.0-windows7.0/System.Activities.ViewModels.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib/netstandard2.0/System.IO.Abstractions.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\system.management\\8.0.0\\runtimes/win/lib/net8.0/System.Management.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\system.runtime.caching\\8.0.1\\runtimes/win/lib/net8.0/System.Runtime.Caching.dll",
@@ -207,15 +207,15 @@
         "C:\\Users\\Hp\\.nuget\\packages\\uipath.testing.activities\\25.10.3\\lib/net6.0-windows7.0/UiPath.Testing.Activities.Api.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\uipath.testing.activities\\25.10.3\\lib/net6.0-windows7.0/UiPath.Testing.Activities.Design.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\uipath.testing.activities\\25.10.3\\lib/net6.0-windows7.0/UiPath.Testing.Activities.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.testing.activities\\25.10.3\\lib/net6.0-windows7.0/UiPath.Testing.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.testing.activities\\25.10.3\\lib/net6.0-windows7.0/UiPath.Testing.RulesLibrary.dll"
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.testing.activities\\25.10.3\\lib/net6.0-windows7.0/UiPath.Testing.RulesLibrary.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.testing.activities\\25.10.3\\lib/net6.0-windows7.0/UiPath.Testing.dll"
       ],
       "Path": "C:\\Users\\Hp\\.nuget\\packages\\uipath.testing.activities\\25.10.3"
     },
     {
       "Package": {
         "Id": "UiPath.UIAutomation.Activities",
-        "Version": "26.10.7"
+        "Version": "26.10.9"
       },
       "Assemblies": [
         "C:\\Users\\Hp\\.nuget\\packages\\microsoft.azure.cognitiveservices.vision.computervision\\7.0.1\\lib/netstandard2.0/Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll",
@@ -239,21 +239,21 @@
         "C:\\Users\\Hp\\.nuget\\packages\\nito.disposables\\2.2.1\\lib/netstandard2.1/Nito.Disposables.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\nlog\\4.7.15\\lib/netstandard2.0/NLog.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\polly\\7.1.0\\lib/netstandard2.0/Polly.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\system.activities.viewmodels\\1.20260609.1\\lib/net6.0-windows7.0/System.Activities.ViewModels.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\system.activities.viewmodels\\1.20261110.3\\lib/net6.0-windows7.0/System.Activities.ViewModels.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib/netstandard2.0/System.IO.Abstractions.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath\\26.10.212.53849\\lib/net6.0-windows7.0/SapAutomationConnectivitySdk.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath\\26.10.212.53849\\lib/net6.0-windows7.0/SapAutomationLogger.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath\\26.10.212.53849\\lib/net6.0-windows7.0/SapWinGuiSdk.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath\\26.10.212.53849\\lib/net6.0-windows7.0/UiPath.Driver.ComInterop.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath\\26.10.212.53849\\lib/net6.0-windows7.0/UiPath.DriverCore.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath\\26.10.212.53849\\lib/net6.0-windows7.0/UiPath.Interop.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath\\26.10.218.42049\\lib/net6.0-windows7.0/SapAutomationConnectivitySdk.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath\\26.10.218.42049\\lib/net6.0-windows7.0/SapAutomationLogger.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath\\26.10.218.42049\\lib/net6.0-windows7.0/SapWinGuiSdk.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath\\26.10.218.42049\\lib/net6.0-windows7.0/UiPath.Driver.ComInterop.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath\\26.10.218.42049\\lib/net6.0-windows7.0/UiPath.DriverCore.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath\\26.10.218.42049\\lib/net6.0-windows7.0/UiPath.Interop.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\uipath.activities.runtimegovernance\\1.1.7\\lib/net6.0-windows7.0/UiPath.Activities.RuntimeGovernance.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.appsignatures\\26.10.212.53849\\lib/net6.0-windows7.0/AppSignatures.Locator.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.appsignatures\\26.10.218.42049\\lib/net6.0-windows7.0/AppSignatures.Locator.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\uipath.codedworkflows\\24.10.3\\lib/net6.0-windows7.0/UiPath.CodedWorkflows.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\uipath.coreipc\\2.1.0-20210811-12-fix\\lib/net5.0-windows7.0/UiPath.CoreIpc.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.emgucvbundle\\2.2.0\\lib/net6.0/Emgu.CV.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\uipath.emgucvbundle\\2.2.0\\lib/net6.0/concrt140.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\uipath.emgucvbundle\\2.2.0\\lib/net6.0/cvextern.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.emgucvbundle\\2.2.0\\lib/net6.0/Emgu.CV.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\uipath.emgucvbundle\\2.2.0\\lib/net6.0/libusb-1.0.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\uipath.emgucvbundle\\2.2.0\\lib/net6.0/msvcp140.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\uipath.emgucvbundle\\2.2.0\\lib/net6.0/msvcp140_1.dll",
@@ -269,32 +269,32 @@
         "C:\\Users\\Hp\\.nuget\\packages\\uipath.ocr.contracts\\3.3.0\\lib/net6.0-windows7.0/UiPath.OCR.Contracts.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\uipath.opentelemetry.contracts\\2.12.0\\lib/netstandard2.0/UiPath.OpenTelemetry.Contracts.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\uipath.platform\\26.9.0\\lib/net6.0-windows7.0/UiPath.Platform.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.plugin.activities.tracing\\1.0.1\\lib/net8.0-windows7.0/UiPath.Plugin.Activities.Tracing.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.plugin.activities.tracing\\1.0.2\\lib/net10.0-windows7.0/UiPath.Plugin.Activities.Tracing.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\uipath.telemetry.client\\2.12.0\\lib/netstandard2.0/TelemetryClient.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities\\26.10.7\\lib/net6.0-windows7.0/UiPath.CV.Activities.Design.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities\\26.10.7\\lib/net6.0-windows7.0/UiPath.UIAutomation.Activities.Design.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities\\26.10.7\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.Activities.Design.Contracts.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities\\26.10.7\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.Activities.Design.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities\\26.10.7\\lib/net6.0-windows7.0/UiPath.Wizards.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\26.10.7\\lib/net6.0-windows7.0/UiPath.CV.Activities.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\26.10.7\\lib/net6.0-windows7.0/UiPath.CV.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\26.10.7\\lib/net6.0-windows7.0/UiPath.UiAutomation.Activities.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\26.10.7\\lib/net6.0-windows7.0/UiPath.UIAutomationCore.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\26.10.7\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.Activities.Contracts.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\26.10.7\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.Activities.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\26.10.7\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.API.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\26.10.7\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\26.10.7\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.ExternalIntegrations.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\26.10.7\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.Migration.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities.runtime.design\\26.10.7\\lib/net6.0-windows7.0/UiPath.UIAutomation.Activities.Runtime.Design.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.design.recoverypanel\\26.10.7\\lib/net6.0/UiPath.UIAutomation.Design.RecoveryPanel.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities\\26.10.9\\lib/net6.0-windows7.0/UiPath.CV.Activities.Design.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities\\26.10.9\\lib/net6.0-windows7.0/UiPath.UIAutomation.Activities.Design.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities\\26.10.9\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.Activities.Design.Contracts.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities\\26.10.9\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.Activities.Design.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities\\26.10.9\\lib/net6.0-windows7.0/UiPath.Wizards.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\26.10.9\\lib/net6.0-windows7.0/UiPath.CV.Activities.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\26.10.9\\lib/net6.0-windows7.0/UiPath.CV.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\26.10.9\\lib/net6.0-windows7.0/UiPath.UiAutomation.Activities.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\26.10.9\\lib/net6.0-windows7.0/UiPath.UIAutomationCore.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\26.10.9\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.Activities.Contracts.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\26.10.9\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.Activities.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\26.10.9\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.API.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\26.10.9\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\26.10.9\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.ExternalIntegrations.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\26.10.9\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.Migration.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities.runtime.design\\26.10.9\\lib/net6.0-windows7.0/UiPath.UIAutomation.Activities.Runtime.Design.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.design.recoverypanel\\26.10.9\\lib/net6.0/UiPath.UIAutomation.Design.RecoveryPanel.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\uipath.vision\\4.1.0\\lib/net6.0-windows7.0/UiPath.Vision.AzureComputerVision.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\uipath.vision\\4.1.0\\lib/net6.0-windows7.0/UiPath.Vision.Core.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.vision\\4.1.0\\lib/net6.0-windows7.0/UiPath.Vision.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\uipath.vision\\4.1.0\\lib/net6.0-windows7.0/UiPath.Vision.GoogleCloud.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.vision\\4.1.0\\lib/net6.0-windows7.0/UiPath.Vision.Tesseract.dll"
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.vision\\4.1.0\\lib/net6.0-windows7.0/UiPath.Vision.Tesseract.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.vision\\4.1.0\\lib/net6.0-windows7.0/UiPath.Vision.dll"
       ],
-      "Path": "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities\\26.10.7"
+      "Path": "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities\\26.10.9"
     }
   ],
   "Conflicts": [],
@@ -2019,7 +2019,7 @@
     },
     "System.Activities.ViewModels": {
       "Id": "System.Activities.ViewModels",
-      "Version": "1.20260609.1",
+      "Version": "1.20261110.3",
       "Dependencies": []
     },
     "System.AppContext": {
@@ -4220,7 +4220,7 @@
     },
     "UiPath": {
       "Id": "UiPath",
-      "Version": "26.10.212.53849",
+      "Version": "26.10.218.42049",
       "Dependencies": []
     },
     "UiPath.Activities.RuntimeGovernance": {
@@ -4235,7 +4235,7 @@
     },
     "UiPath.AppSignatures": {
       "Id": "UiPath.AppSignatures",
-      "Version": "26.10.212.53849",
+      "Version": "26.10.218.42049",
       "Dependencies": []
     },
     "UiPath.BusinessRules.Client": {
@@ -4624,7 +4624,7 @@
     },
     "UiPath.Plugin.Activities.Tracing": {
       "Id": "UiPath.Plugin.Activities.Tracing",
-      "Version": "1.0.1",
+      "Version": "1.0.2",
       "Dependencies": []
     },
     "UiPath.System.Activities": {
@@ -4915,37 +4915,37 @@
     },
     "UiPath.UIAutomation.Activities": {
       "Id": "UiPath.UIAutomation.Activities",
-      "Version": "26.10.7",
+      "Version": "26.10.9",
       "Dependencies": [
         {
           "Item1": "System.Activities.ViewModels",
-          "Item2": "[1.20260609.1, )"
+          "Item2": "[1.20261110.3, )"
         },
         {
           "Item1": "UiPath.UIAutomation.Activities.Runtime",
-          "Item2": "[26.10.7, 26.10.7]"
+          "Item2": "[26.10.9, 26.10.9]"
         },
         {
           "Item1": "UiPath.UIAutomation.Design.RecoveryPanel",
-          "Item2": "[26.10.7, 26.10.7]"
+          "Item2": "[26.10.9, 26.10.9]"
         },
         {
           "Item1": "UiPath.UIAutomation.CLI",
-          "Item2": "[26.10.7, 26.10.7]"
+          "Item2": "[26.10.9, 26.10.9]"
         }
       ]
     },
     "UiPath.UIAutomation.Activities.Runtime": {
       "Id": "UiPath.UIAutomation.Activities.Runtime",
-      "Version": "26.10.7",
+      "Version": "26.10.9",
       "Dependencies": [
         {
           "Item1": "UiPath",
-          "Item2": "[26.10.212.53849, 26.10.212.53849]"
+          "Item2": "[26.10.218.42049, 26.10.218.42049]"
         },
         {
           "Item1": "UiPath.UIAutomation.Activities.Runtime.Design",
-          "Item2": "[26.10.7, 26.10.7]"
+          "Item2": "[26.10.9, 26.10.9]"
         },
         {
           "Item1": "UiPath.Vision",
@@ -4981,7 +4981,7 @@
         },
         {
           "Item1": "UiPath.Plugin.Activities.Tracing",
-          "Item2": "[1.0.1, )"
+          "Item2": "[1.0.2, )"
         },
         {
           "Item1": "UiPath.Activities.RuntimeGovernance",
@@ -4989,23 +4989,23 @@
         },
         {
           "Item1": "UiPath.AppSignatures",
-          "Item2": "[26.10.212.53849, )"
+          "Item2": "[26.10.218.42049, )"
         }
       ]
     },
     "UiPath.UIAutomation.Activities.Runtime.Design": {
       "Id": "UiPath.UIAutomation.Activities.Runtime.Design",
-      "Version": "26.10.7",
+      "Version": "26.10.9",
       "Dependencies": []
     },
     "UiPath.UIAutomation.CLI": {
       "Id": "UiPath.UIAutomation.CLI",
-      "Version": "26.10.7",
+      "Version": "26.10.9",
       "Dependencies": []
     },
     "UiPath.UIAutomation.Design.RecoveryPanel": {
       "Id": "UiPath.UIAutomation.Design.RecoveryPanel",
-      "Version": "26.10.7",
+      "Version": "26.10.9",
       "Dependencies": []
     },
     "UiPath.Vision": {
@@ -6443,12 +6443,12 @@
     {
       "Package": {
         "Id": "System.Activities.ViewModels",
-        "Version": "1.20260609.1"
+        "Version": "1.20261110.3"
       },
       "Assemblies": [
-        "C:\\Users\\Hp\\.nuget\\packages\\system.activities.viewmodels\\1.20260609.1\\lib\\net6.0-windows7.0\\System.Activities.ViewModels.dll"
+        "C:\\Users\\Hp\\.nuget\\packages\\system.activities.viewmodels\\1.20261110.3\\lib\\net6.0-windows7.0\\System.Activities.ViewModels.dll"
       ],
-      "Path": "C:\\Users\\Hp\\.nuget\\packages\\system.activities.viewmodels\\1.20260609.1"
+      "Path": "C:\\Users\\Hp\\.nuget\\packages\\system.activities.viewmodels\\1.20261110.3"
     },
     {
       "Package": {
@@ -6600,8 +6600,8 @@
         "Version": "8.0.2"
       },
       "Assemblies": [
-        "C:\\Users\\Hp\\.nuget\\packages\\system.diagnostics.eventlog\\8.0.2\\runtimes\\win\\lib\\net8.0\\System.Diagnostics.EventLog.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\system.diagnostics.eventlog\\8.0.2\\runtimes\\win\\lib\\net8.0\\System.Diagnostics.EventLog.Messages.dll"
+        "C:\\Users\\Hp\\.nuget\\packages\\system.diagnostics.eventlog\\8.0.2\\runtimes\\win\\lib\\net8.0\\System.Diagnostics.EventLog.Messages.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\system.diagnostics.eventlog\\8.0.2\\runtimes\\win\\lib\\net8.0\\System.Diagnostics.EventLog.dll"
       ],
       "Path": "C:\\Users\\Hp\\.nuget\\packages\\system.diagnostics.eventlog\\8.0.2"
     },
@@ -7297,8 +7297,8 @@
         "Version": "4.10.3"
       },
       "Assemblies": [
-        "C:\\Users\\Hp\\.nuget\\packages\\system.servicemodel.primitives\\4.10.3\\lib\\net6.0\\System.ServiceModel.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\system.servicemodel.primitives\\4.10.3\\lib\\net6.0\\System.ServiceModel.Primitives.dll"
+        "C:\\Users\\Hp\\.nuget\\packages\\system.servicemodel.primitives\\4.10.3\\lib\\net6.0\\System.ServiceModel.Primitives.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\system.servicemodel.primitives\\4.10.3\\lib\\net6.0\\System.ServiceModel.dll"
       ],
       "Path": "C:\\Users\\Hp\\.nuget\\packages\\system.servicemodel.primitives\\4.10.3"
     },
@@ -7527,17 +7527,17 @@
     {
       "Package": {
         "Id": "UiPath",
-        "Version": "26.10.212.53849"
+        "Version": "26.10.218.42049"
       },
       "Assemblies": [
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath\\26.10.212.53849\\lib\\net6.0-windows7.0\\SapAutomationConnectivitySdk.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath\\26.10.212.53849\\lib\\net6.0-windows7.0\\SapAutomationLogger.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath\\26.10.212.53849\\lib\\net6.0-windows7.0\\SapWinGuiSdk.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath\\26.10.212.53849\\lib\\net6.0-windows7.0\\UiPath.Driver.ComInterop.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath\\26.10.212.53849\\lib\\net6.0-windows7.0\\UiPath.DriverCore.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath\\26.10.212.53849\\lib\\net6.0-windows7.0\\UiPath.Interop.dll"
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath\\26.10.218.42049\\lib\\net6.0-windows7.0\\SapAutomationConnectivitySdk.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath\\26.10.218.42049\\lib\\net6.0-windows7.0\\SapAutomationLogger.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath\\26.10.218.42049\\lib\\net6.0-windows7.0\\SapWinGuiSdk.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath\\26.10.218.42049\\lib\\net6.0-windows7.0\\UiPath.Driver.ComInterop.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath\\26.10.218.42049\\lib\\net6.0-windows7.0\\UiPath.DriverCore.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath\\26.10.218.42049\\lib\\net6.0-windows7.0\\UiPath.Interop.dll"
       ],
-      "Path": "C:\\Users\\Hp\\.nuget\\packages\\uipath\\26.10.212.53849"
+      "Path": "C:\\Users\\Hp\\.nuget\\packages\\uipath\\26.10.218.42049"
     },
     {
       "Package": {
@@ -7552,12 +7552,12 @@
     {
       "Package": {
         "Id": "UiPath.AppSignatures",
-        "Version": "26.10.212.53849"
+        "Version": "26.10.218.42049"
       },
       "Assemblies": [
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.appsignatures\\26.10.212.53849\\lib\\net6.0-windows7.0\\AppSignatures.Locator.dll"
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.appsignatures\\26.10.218.42049\\lib\\net6.0-windows7.0\\AppSignatures.Locator.dll"
       ],
-      "Path": "C:\\Users\\Hp\\.nuget\\packages\\uipath.appsignatures\\26.10.212.53849"
+      "Path": "C:\\Users\\Hp\\.nuget\\packages\\uipath.appsignatures\\26.10.218.42049"
     },
     {
       "Package": {
@@ -7625,9 +7625,9 @@
         "Version": "2.2.0"
       },
       "Assemblies": [
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.emgucvbundle\\2.2.0\\lib\\net6.0\\Emgu.CV.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\uipath.emgucvbundle\\2.2.0\\lib\\net6.0\\concrt140.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\uipath.emgucvbundle\\2.2.0\\lib\\net6.0\\cvextern.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.emgucvbundle\\2.2.0\\lib\\net6.0\\Emgu.CV.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\uipath.emgucvbundle\\2.2.0\\lib\\net6.0\\libusb-1.0.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\uipath.emgucvbundle\\2.2.0\\lib\\net6.0\\msvcp140.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\uipath.emgucvbundle\\2.2.0\\lib\\net6.0\\msvcp140_1.dll",
@@ -7657,9 +7657,9 @@
       "Assemblies": [
         "C:\\Users\\Hp\\.nuget\\packages\\uipath.excel.activities\\3.6.1\\lib\\net6.0-windows7.0\\UiPath.Excel.Activities.API.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\uipath.excel.activities\\3.6.1\\lib\\net6.0-windows7.0\\UiPath.Excel.Activities.Design.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.excel.activities\\3.6.1\\lib\\net6.0-windows7.0\\UiPath.Excel.Activities.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\uipath.excel.activities\\3.6.1\\lib\\net6.0-windows7.0\\UiPath.Excel.Activities.Package.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\uipath.excel.activities\\3.6.1\\lib\\net6.0-windows7.0\\UiPath.Excel.Activities.ViewModels.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.excel.activities\\3.6.1\\lib\\net6.0-windows7.0\\UiPath.Excel.Activities.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\uipath.excel.activities\\3.6.1\\lib\\net6.0-windows7.0\\UiPath.Excel.dll"
       ],
       "Path": "C:\\Users\\Hp\\.nuget\\packages\\uipath.excel.activities\\3.6.1"
@@ -7735,12 +7735,12 @@
     {
       "Package": {
         "Id": "UiPath.Plugin.Activities.Tracing",
-        "Version": "1.0.1"
+        "Version": "1.0.2"
       },
       "Assemblies": [
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.plugin.activities.tracing\\1.0.1\\lib\\net8.0-windows7.0\\UiPath.Plugin.Activities.Tracing.dll"
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.plugin.activities.tracing\\1.0.2\\lib\\net10.0-windows7.0\\UiPath.Plugin.Activities.Tracing.dll"
       ],
-      "Path": "C:\\Users\\Hp\\.nuget\\packages\\uipath.plugin.activities.tracing\\1.0.1"
+      "Path": "C:\\Users\\Hp\\.nuget\\packages\\uipath.plugin.activities.tracing\\1.0.2"
     },
     {
       "Package": {
@@ -7796,71 +7796,71 @@
         "C:\\Users\\Hp\\.nuget\\packages\\uipath.testing.activities\\25.10.3\\lib\\net6.0-windows7.0\\UiPath.Testing.Activities.Api.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\uipath.testing.activities\\25.10.3\\lib\\net6.0-windows7.0\\UiPath.Testing.Activities.Design.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\uipath.testing.activities\\25.10.3\\lib\\net6.0-windows7.0\\UiPath.Testing.Activities.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.testing.activities\\25.10.3\\lib\\net6.0-windows7.0\\UiPath.Testing.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.testing.activities\\25.10.3\\lib\\net6.0-windows7.0\\UiPath.Testing.RulesLibrary.dll"
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.testing.activities\\25.10.3\\lib\\net6.0-windows7.0\\UiPath.Testing.RulesLibrary.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.testing.activities\\25.10.3\\lib\\net6.0-windows7.0\\UiPath.Testing.dll"
       ],
       "Path": "C:\\Users\\Hp\\.nuget\\packages\\uipath.testing.activities\\25.10.3"
     },
     {
       "Package": {
         "Id": "UiPath.UIAutomation.Activities",
-        "Version": "26.10.7"
+        "Version": "26.10.9"
       },
       "Assemblies": [
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities\\26.10.7\\lib\\net6.0-windows7.0\\UiPath.CV.Activities.Design.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities\\26.10.7\\lib\\net6.0-windows7.0\\UiPath.UIAutomation.Activities.Design.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities\\26.10.7\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.Activities.Design.Contracts.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities\\26.10.7\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.Activities.Design.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities\\26.10.7\\lib\\net6.0-windows7.0\\UiPath.Wizards.dll"
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities\\26.10.9\\lib\\net6.0-windows7.0\\UiPath.CV.Activities.Design.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities\\26.10.9\\lib\\net6.0-windows7.0\\UiPath.UIAutomation.Activities.Design.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities\\26.10.9\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.Activities.Design.Contracts.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities\\26.10.9\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.Activities.Design.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities\\26.10.9\\lib\\net6.0-windows7.0\\UiPath.Wizards.dll"
       ],
-      "Path": "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities\\26.10.7"
+      "Path": "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities\\26.10.9"
     },
     {
       "Package": {
         "Id": "UiPath.UIAutomation.Activities.Runtime",
-        "Version": "26.10.7"
+        "Version": "26.10.9"
       },
       "Assemblies": [
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\26.10.7\\lib\\net6.0-windows7.0\\UiPath.CV.Activities.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\26.10.7\\lib\\net6.0-windows7.0\\UiPath.CV.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\26.10.7\\lib\\net6.0-windows7.0\\UiPath.UiAutomation.Activities.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\26.10.7\\lib\\net6.0-windows7.0\\UiPath.UIAutomationCore.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\26.10.7\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.Activities.Contracts.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\26.10.7\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.Activities.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\26.10.7\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.API.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\26.10.7\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\26.10.7\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.ExternalIntegrations.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\26.10.7\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.Migration.dll"
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\26.10.9\\lib\\net6.0-windows7.0\\UiPath.CV.Activities.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\26.10.9\\lib\\net6.0-windows7.0\\UiPath.CV.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\26.10.9\\lib\\net6.0-windows7.0\\UiPath.UiAutomation.Activities.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\26.10.9\\lib\\net6.0-windows7.0\\UiPath.UIAutomationCore.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\26.10.9\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.Activities.Contracts.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\26.10.9\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.Activities.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\26.10.9\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.API.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\26.10.9\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\26.10.9\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.ExternalIntegrations.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\26.10.9\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.Migration.dll"
       ],
-      "Path": "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\26.10.7"
+      "Path": "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\26.10.9"
     },
     {
       "Package": {
         "Id": "UiPath.UIAutomation.Activities.Runtime.Design",
-        "Version": "26.10.7"
+        "Version": "26.10.9"
       },
       "Assemblies": [
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities.runtime.design\\26.10.7\\lib\\net6.0-windows7.0\\UiPath.UIAutomation.Activities.Runtime.Design.dll"
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities.runtime.design\\26.10.9\\lib\\net6.0-windows7.0\\UiPath.UIAutomation.Activities.Runtime.Design.dll"
       ],
-      "Path": "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities.runtime.design\\26.10.7"
+      "Path": "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.activities.runtime.design\\26.10.9"
     },
     {
       "Package": {
         "Id": "UiPath.UIAutomation.CLI",
-        "Version": "26.10.7"
+        "Version": "26.10.9"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.cli\\26.10.7"
+      "Path": "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.cli\\26.10.9"
     },
     {
       "Package": {
         "Id": "UiPath.UIAutomation.Design.RecoveryPanel",
-        "Version": "26.10.7"
+        "Version": "26.10.9"
       },
       "Assemblies": [
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.design.recoverypanel\\26.10.7\\lib\\net6.0\\UiPath.UIAutomation.Design.RecoveryPanel.dll"
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.design.recoverypanel\\26.10.9\\lib\\net6.0\\UiPath.UIAutomation.Design.RecoveryPanel.dll"
       ],
-      "Path": "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.design.recoverypanel\\26.10.7"
+      "Path": "C:\\Users\\Hp\\.nuget\\packages\\uipath.uiautomation.design.recoverypanel\\26.10.9"
     },
     {
       "Package": {
@@ -7870,9 +7870,9 @@
       "Assemblies": [
         "C:\\Users\\Hp\\.nuget\\packages\\uipath.vision\\4.1.0\\lib\\net6.0-windows7.0\\UiPath.Vision.AzureComputerVision.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\uipath.vision\\4.1.0\\lib\\net6.0-windows7.0\\UiPath.Vision.Core.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.vision\\4.1.0\\lib\\net6.0-windows7.0\\UiPath.Vision.dll",
         "C:\\Users\\Hp\\.nuget\\packages\\uipath.vision\\4.1.0\\lib\\net6.0-windows7.0\\UiPath.Vision.GoogleCloud.dll",
-        "C:\\Users\\Hp\\.nuget\\packages\\uipath.vision\\4.1.0\\lib\\net6.0-windows7.0\\UiPath.Vision.Tesseract.dll"
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.vision\\4.1.0\\lib\\net6.0-windows7.0\\UiPath.Vision.Tesseract.dll",
+        "C:\\Users\\Hp\\.nuget\\packages\\uipath.vision\\4.1.0\\lib\\net6.0-windows7.0\\UiPath.Vision.dll"
       ],
       "Path": "C:\\Users\\Hp\\.nuget\\packages\\uipath.vision\\4.1.0"
     }

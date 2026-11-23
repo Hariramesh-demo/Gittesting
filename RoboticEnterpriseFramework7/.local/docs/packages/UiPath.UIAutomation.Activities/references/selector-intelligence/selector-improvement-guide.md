@@ -28,6 +28,8 @@ Attribute reliability is per tag type. Read the file for every tag type present 
 | `ctrl` | [ctrl-instructions.md](tag-names-instructions/ctrl-instructions.md) |
 | `java` | [java-instructions.md](tag-names-instructions/java-instructions.md) |
 
+What each attribute holds and how the driver computes it: [selector-reference.md § Attribute references](selector-reference.md#attribute-references). Not a must-read: open a tag's attribute reference when a value in the attribute listing, or an attribute missing from it, needs explaining.
+
 ## Hard rules
 
 A selector violating any of these is wrong, not merely weak.

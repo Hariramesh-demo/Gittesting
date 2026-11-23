@@ -289,6 +289,8 @@ Task<string> GetTextAsync(RuntimeTarget target, GetTextOptions getTextOptions = 
 
 ### TypeInto
 
+Overloads without a target type into the focused element of the application, or into its main window when the focus is outside it — the same as a [Type Into](../activities/TypeInto.md) activity with no target. Use them to type into the window the `UiTargetApp` is attached to, instead of passing the application's own selector as the target.
+
 ```csharp
 void TypeInto(string target, string text);
 Task TypeIntoAsync(string target, string text);
@@ -302,6 +304,12 @@ void TypeInto(IElementDescriptor elementDescriptor, SecureString secureText);
 Task TypeIntoAsync(IElementDescriptor elementDescriptor, SecureString secureText);
 void TypeInto(IElementDescriptor elementDescriptor, TypeIntoOptions typeIntoOptions);
 Task TypeIntoAsync(IElementDescriptor elementDescriptor, TypeIntoOptions typeIntoOptions);
+void TypeInto(string text);
+Task TypeIntoAsync(string text);
+void TypeInto(SecureString secureText);
+Task TypeIntoAsync(SecureString secureText);
+void TypeInto(TypeIntoOptions typeIntoOptions);
+Task TypeIntoAsync(TypeIntoOptions typeIntoOptions);
 void TypeInto(TargetAnchorableModel target, string text);
 Task TypeIntoAsync(TargetAnchorableModel target, string text);
 void TypeInto(TargetAnchorableModel target, SecureString secureText);

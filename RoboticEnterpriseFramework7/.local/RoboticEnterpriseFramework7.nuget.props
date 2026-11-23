@@ -13,7 +13,7 @@
     <SourceRoot Include="C:\Users\Hp\.nuget\packages\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgUiPath_UIAutomation_CLI Condition=" '$(PkgUiPath_UIAutomation_CLI)' == '' ">C:\Users\Hp\.nuget\packages\uipath.uiautomation.cli\26.10.7</PkgUiPath_UIAutomation_CLI>
+    <PkgUiPath_UIAutomation_CLI Condition=" '$(PkgUiPath_UIAutomation_CLI)' == '' ">C:\Users\Hp\.nuget\packages\uipath.uiautomation.cli\26.10.9</PkgUiPath_UIAutomation_CLI>
     <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\Hp\.nuget\packages\microsoft.codeanalysis.analyzers\3.11.0</PkgMicrosoft_CodeAnalysis_Analyzers>
   </PropertyGroup>
 </Project>
