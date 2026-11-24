@@ -40,3 +40,4 @@ Run `uip rpa --help` to find the command that retrieves the default XAML for an 
 
 - Before automating SAP, read [`sap-guide.md`](../references/sap-guide.md).
 - This activity must be placed inside a `UiPath.UIAutomationNext.Activities.NApplicationCard` scope.
+- `Item` is the slash-separated menu path in captions (`System/Status...`), as the menu items list it ([sap-guide.md § Discovering control items](../references/sap-guide.md#discovering-control-items-interact-get--items)). Each level is matched exactly, case included; `*` and `?` match within their own level only.

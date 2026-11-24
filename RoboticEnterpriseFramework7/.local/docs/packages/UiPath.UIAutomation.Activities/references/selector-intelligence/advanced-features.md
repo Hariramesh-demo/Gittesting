@@ -1,7 +1,8 @@
 # Advanced Selector Features
 
 Matching modifiers and navigation available in any tag. Reference for
-[selector-improvement-guide.md](selector-improvement-guide.md).
+[selector-improvement-guide.md](selector-improvement-guide.md). Exact semantics of each modifier and of `<nav>`:
+[selector-reference.md § Matching semantics](selector-reference.md#matching-semantics).
 
 ## Wildcard matching
 
@@ -50,4 +51,4 @@ Navigate to an ancestor before continuing the search:
 <ctrl name='Configuration' /><nav up='2'/><ctrl name='One piece' />
 ```
 
-**When to use:** anchoring to a related element for robustness. Never use `<nav up='0'/>` — it does nothing.
+**When to use:** anchoring to a related element for robustness. Never use `<nav up='0'/>`: a count below 1 fails the search.
