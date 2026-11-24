@@ -71,12 +71,19 @@ Twisty is not separate clickable element; node row toggles. Choose by path knowl
   - `A/B/C/` — trailing `/` also expands `C` itself, revealing **its** children.
 - **Discovering → click.** Single Simulate click on node row toggles expand/collapse.
 
+## Tabs, combo boxes and table rows
+
+- **Tabs.** A single click selects a tab (`tabp…`); under Simulate it needs no on-screen rectangle, and a double click fails. To pick a tab by its caption, use **Select Item** on the tab strip (`tabs…`), which matches the caption exactly, case included.
+- **Combo boxes.** `items` and `selecteditem` hold the entries' captions, never their keys. **Select Item** takes an entry's caption or its key, exact (case and spaces included) or as a `*` pattern: an entry known by its key is selected by that key, and a caption copied with padding or with the key in front matches nothing. The blank entry is one space on SAP GUI for Windows and the empty text on SAP GUI for Java, whose `items` leave it out.
+- **Row selection.** A row's selection is the `checked` attribute of its row element (`<sap id='<table id>' tableRow='<row>' />`). **Check/Uncheck** on the row element sets it whatever it was (Check selects, Uncheck deselects); a click toggles it. A click on a table control's row element selects the row on both front ends and under either input mode, and a second Simulate click deselects it. A click on a cell selects nothing; a click on the row-selector cell (`tableCol='-1'`) selects the row, except under Simulate on SAP GUI for Windows.
+
 ## Target configuration
 
 - NSAPLogon, NSAPLogin, NSAPCallTransaction, and NSAPReadStatusBar do not require target configuration as they address SAP through the connection and session, not a captured selector.
 - **Prefer `[sap]`-tagged nodes.** SAP web framework elements carry richer, more stable attributes than generic HTML, so they produce more reliable selectors.
 - **SAP session window:** WinGUI `<wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' />`; Java `<wnd app='java*.exe' cls='SunAwtFrame' title='S4H*' />` (see [Window types](#window-types)).
 - **Modal dialogs are their own window.** A SAP popup is a separate OS window with the same `sapSysSessionId` as the session, title = the dialog caption; `cls='#32770'` on WinGUI, `cls='SunAwtDialog'` on Java.
+- **`<sap>` and the SAP session attributes of `wnd`:** what `id`, `leafid`, `type` and the table and tree attributes hold, how each matches, which attributes each kind of element takes, and which ids hold across screens: [SAP GUI attributes](selector-intelligence/tag-attributes/sap-attributes.md).
 
 ## Other Gotchas
 
@@ -84,6 +91,7 @@ Twisty is not separate clickable element; node row toggles. Choose by path knowl
 - **Use [Select Menu Item](../activities/SAPSelectMenuItem.md)** for menu navigation. A direct menu-bar selector, like `<sap id='mbar/menu[a]/menu[b]'/>`, is positional and will shift between screens (the System menu may be `menu[4]` on SAP Easy Access but `menu[3]` elsewhere).
 - **Context menus are a native `#32768` popup.** Right-click the target with **HardwareEvents** to open it; the menu appears as a separate `#32768` window. Read and click its `MenuItem`s with `--framework UIA`.
 - **SAP tables are scripting-backed.** Accessing a table row scrolls the table to bring it into view.
+- **Leave a transaction** by typing `/n` into the command field (`tbar[0]/okcd`) and pressing Enter with **HardwareEvents**: Simulate sends no special keys, and **Call Transaction** with `/n` alone times out ([Call Transaction](../activities/SAPCallTransaction.md)).
 - **Never log off via `NSAPCallTransaction` with `/nex`.** The log-off succeeds, then the activity ALWAYS faults with `Failed to retrieve window id` — it re-resolves the window `/nex` just destroyed; no retry or timeout fixes it. Log off through real UI targets instead (Exit / Log off buttons, then confirm the `Log Off` dialog). The same applies to any `/nex`-style command that closes the session hosting the activity.
 
 ## Troubleshooting

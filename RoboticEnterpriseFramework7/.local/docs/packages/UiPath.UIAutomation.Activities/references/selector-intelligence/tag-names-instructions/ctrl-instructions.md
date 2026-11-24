@@ -5,4 +5,4 @@ b) alright: labeledby, name, rowName
 c) less reliable: aastate, virtualname, helpText
 d) highly unreliable: text
 
-Semantic attributes like `name` and `role` strongly preferred.
+`automationid` comes first unless it is generated (a number, a GUID) or repeats on every instance (list items, grid cells); then `name` and `role` identify the element.

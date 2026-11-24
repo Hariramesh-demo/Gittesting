@@ -4,10 +4,10 @@ WebCtrl tags automate browser UI elements. Attributes generate dynamically from 
 
 Subset of predefined attributes, by reliability:
 
-a) very reliable: tag, aria-label, aria-labeledby, aria-role, shadowhostid, aria-describedby
-b) alright: id, parentid, visibleinnertext, innertext, name, parentname, isleaf, type, aaname
+a) very reliable: tag, aria-label, aria-labelledby, aria-role, shadowhostid, aria-describedby
+b) alright: id, parentid, author-controlled data-* ids (data-testid, data-cy, data-automation-id), visibleinnertext, innertext, name, parentname, isleaf, type, aaname
 c) table-specific: tableCol, tableRow, colName, rowName
-d) last resort, only to make selector unique: action, alt, href, src, tabindex, placeholder, uipath-html-title, css-selector, class, parentclass, aria-pressed, data-cy
+d) last resort, only to make selector unique: action, alt, href, src, tabindex, placeholder, uipath-html-title, css-selector, class, parentclass, aria-pressed
 e) last resort — framework-generated, sensitive to framework updates; only if nothing from a-d uniquely identifies target: ng-reflect-*, ng-version, _ngcontent-*, _nghost-*, data-reactid, __reactProps$*, v-*, data-v-*
 
 ## CRITICAL - IMMEDIATE DISQUALIFICATION FOR WEBCTRL:
